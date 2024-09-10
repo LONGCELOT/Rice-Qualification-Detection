@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['BrokenGrain_BadQuality', 'BrokenGrain_GoodQuality', 'Unmilled', 'WholeGrain_BadQuality', 'WholeGrain_GoodQuality']
+
+roboflow:
+  workspace: crowd-detection-sd7x8
+  project: jasmine-rice-dataset
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/crowd-detection-sd7x8/jasmine-rice-dataset/dataset/2
